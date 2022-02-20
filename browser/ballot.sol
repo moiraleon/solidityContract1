@@ -15,3 +15,10 @@ contract Inbox {
     return message; 
     }
 }
+
+
+//cannot return data in a function that modifies data in a contract
+//need separate functions to get and modify data
+//]your contract you will also automatically create a funciton with the same name as your variables
+//if you call that function it will return that variable
+//if you use th epublic key word for a variable you don't need to create a GET funciton for it
