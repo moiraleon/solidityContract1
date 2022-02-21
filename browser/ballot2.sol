@@ -13,4 +13,11 @@ contract Inbox {
     message = newMessage; 
     }
 
+    function doMath(int a, int b){
+        a+b;//gas used 3
+        a-b;//gas used 3
+        a*b;// gas used 5
+        a==0;// gas used 3
+    }
+
 }
